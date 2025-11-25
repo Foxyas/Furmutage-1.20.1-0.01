@@ -1,5 +1,5 @@
 Java Launcher: C:\Users\User\.jdks\ms-17.0.14\bin\java.exe
-Arguments: '--clean, C:\Users\User\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.20.1-20230612.114412\joined-1.20.1-20230612.114412-srg.jar, --output, E:\Furmutage-1.20.1-0.01\build\fg_cache\net\minecraftforge\forge\1.20.1-47.0.4\forge-1.20.1-47.0.4-binpatched.jar, --apply, E:\Furmutage-1.20.1-0.01\build\fg_cache\net\minecraftforge\forge\1.20.1-47.0.4\forge-1.20.1-47.0.4-binpatches.lzma'
+Arguments: '--clean, C:\Users\User\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.20.1-20230612.114412\joined-1.20.1-20230612.114412-srg.jar, --output, E:\Furmutage-1.20.1-0.01\build\fg_cache\net\minecraftforge\forge\1.20.1-47.4.0\forge-1.20.1-47.4.0-binpatched.jar, --apply, E:\Furmutage-1.20.1-0.01\build\fg_cache\net\minecraftforge\forge\1.20.1-47.4.0\forge-1.20.1-47.4.0-binpatches.lzma'
 Classpath:
  - C:\Users\User\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\binarypatcher\1.1.1\binarypatcher-1.1.1-fatjar.jar
 Working directory: E:\Furmutage-1.20.1-0.01\build\_applyBinpatches_2
@@ -7,12 +7,12 @@ Main class: net.minecraftforge.binarypatcher.ConsoleTool
 ====================================
 Applying: 
   Clean:     C:\Users\User\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.20.1-20230612.114412\joined-1.20.1-20230612.114412-srg.jar
-  Output:    E:\Furmutage-1.20.1-0.01\build\fg_cache\net\minecraftforge\forge\1.20.1-47.0.4\forge-1.20.1-47.0.4-binpatched.jar
+  Output:    E:\Furmutage-1.20.1-0.01\build\fg_cache\net\minecraftforge\forge\1.20.1-47.4.0\forge-1.20.1-47.4.0-binpatched.jar
   KeepData:  false
   Unpatched: false
   Pack200:   false
   Legacy:    false
-Loading patches file: E:\Furmutage-1.20.1-0.01\build\fg_cache\net\minecraftforge\forge\1.20.1-47.0.4\forge-1.20.1-47.0.4-binpatches.lzma
+Loading patches file: E:\Furmutage-1.20.1-0.01\build\fg_cache\net\minecraftforge\forge\1.20.1-47.4.0\forge-1.20.1-47.4.0-binpatches.lzma
   Reading patch com.mojang.blaze3d.pipeline.RenderTarget.binpatch
     Checksum: 151eb55a Exists: true
   Reading patch com.mojang.blaze3d.platform.GlStateManager$BlendState.binpatch
@@ -65,6 +65,8 @@ Loading patches file: E:\Furmutage-1.20.1-0.01\build\fg_cache\net\minecraftforge
     Checksum: d183d4c0 Exists: true
   Reading patch com.mojang.blaze3d.vertex.PoseStack.binpatch
     Checksum: b0ec261e Exists: true
+  Reading patch com.mojang.blaze3d.vertex.SheetedDecalTextureGenerator.binpatch
+    Checksum: 7017e14 Exists: true
   Reading patch com.mojang.blaze3d.vertex.VertexConsumer.binpatch
     Checksum: c545de6e Exists: true
   Reading patch com.mojang.blaze3d.vertex.VertexFormat$1.binpatch
@@ -269,6 +271,10 @@ Loading patches file: E:\Furmutage-1.20.1-0.01\build\fg_cache\net\minecraftforge
     Checksum: a818c7b1 Exists: true
   Reading patch net.minecraft.client.gui.screens.ChatScreen.binpatch
     Checksum: 2bf944d3 Exists: true
+  Reading patch net.minecraft.client.gui.screens.ConnectScreen$1.binpatch
+    Checksum: dfe2288e Exists: true
+  Reading patch net.minecraft.client.gui.screens.ConnectScreen.binpatch
+    Checksum: 9505c31e Exists: true
   Reading patch net.minecraft.client.gui.screens.LoadingOverlay$LogoTexture.binpatch
     Checksum: 1f24802d Exists: true
   Reading patch net.minecraft.client.gui.screens.LoadingOverlay.binpatch
@@ -279,6 +285,8 @@ Loading patches file: E:\Furmutage-1.20.1-0.01\build\fg_cache\net\minecraftforge
     Checksum: c5cd0d3b Exists: true
   Reading patch net.minecraft.client.gui.screens.OptionsScreen.binpatch
     Checksum: f1e43890 Exists: true
+  Reading patch net.minecraft.client.gui.screens.PauseScreen.binpatch
+    Checksum: c9ee4466 Exists: true
   Reading patch net.minecraft.client.gui.screens.Screen$DeferredTooltipRendering.binpatch
     Checksum: e210acb5 Exists: true
   Reading patch net.minecraft.client.gui.screens.Screen$NarratableSearchResult.binpatch
@@ -481,6 +489,20 @@ Loading patches file: E:\Furmutage-1.20.1-0.01\build\fg_cache\net\minecraftforge
     Checksum: 7341b19 Exists: true
   Reading patch net.minecraft.client.particle.EnchantmentTableParticle.binpatch
     Checksum: 5bdaf794 Exists: true
+  Reading patch net.minecraft.client.particle.FireworkParticles$1.binpatch
+    Checksum: 7c491ac5 Exists: true
+  Reading patch net.minecraft.client.particle.FireworkParticles$FlashProvider.binpatch
+    Checksum: 50e938f3 Exists: true
+  Reading patch net.minecraft.client.particle.FireworkParticles$OverlayParticle.binpatch
+    Checksum: 2d4ac99 Exists: true
+  Reading patch net.minecraft.client.particle.FireworkParticles$SparkParticle.binpatch
+    Checksum: 7face5ba Exists: true
+  Reading patch net.minecraft.client.particle.FireworkParticles$SparkProvider.binpatch
+    Checksum: ccf49191 Exists: true
+  Reading patch net.minecraft.client.particle.FireworkParticles$Starter.binpatch
+    Checksum: ba84202c Exists: true
+  Reading patch net.minecraft.client.particle.FireworkParticles.binpatch
+    Checksum: 6231311e Exists: true
   Reading patch net.minecraft.client.particle.Particle.binpatch
     Checksum: 49461123 Exists: true
   Reading patch net.minecraft.client.particle.ParticleEngine$1ParticleDefinition.binpatch
@@ -587,6 +609,8 @@ Loading patches file: E:\Furmutage-1.20.1-0.01\build\fg_cache\net\minecraftforge
     Checksum: dbeff234 Exists: true
   Reading patch net.minecraft.client.renderer.Sheets.binpatch
     Checksum: cb0b37e Exists: true
+  Reading patch net.minecraft.client.renderer.SpriteCoordinateExpander.binpatch
+    Checksum: c35e454d Exists: true
   Reading patch net.minecraft.client.renderer.block.BlockModelShaper.binpatch
     Checksum: 88b622ce Exists: true
   Reading patch net.minecraft.client.renderer.block.BlockRenderDispatcher$1.binpatch
@@ -1037,6 +1061,8 @@ Loading patches file: E:\Furmutage-1.20.1-0.01\build\fg_cache\net\minecraftforge
     Checksum: f6ab2a19 Exists: true
   Reading patch net.minecraft.data.tags.CatVariantTagsProvider.binpatch
     Checksum: d9d1b842 Exists: true
+  Reading patch net.minecraft.data.tags.DamageTypeTagsProvider.binpatch
+    Checksum: 52936007 Exists: true
   Reading patch net.minecraft.data.tags.EntityTypeTagsProvider.binpatch
     Checksum: ddd996aa Exists: true
   Reading patch net.minecraft.data.tags.FlatLevelGeneratorPresetTagsProvider.binpatch
@@ -1431,6 +1457,8 @@ Loading patches file: E:\Furmutage-1.20.1-0.01\build\fg_cache\net\minecraftforge
     Checksum: c98abf83 Exists: true
   Reading patch net.minecraft.tags.TagEntry.binpatch
     Checksum: 7070dec2 Exists: true
+  Reading patch net.minecraft.tags.TagFile.binpatch
+    Checksum: ba01a2a6 Exists: true
   Reading patch net.minecraft.tags.TagLoader$1.binpatch
     Checksum: aef1b685 Exists: true
   Reading patch net.minecraft.tags.TagLoader$EntryWithSource.binpatch
@@ -1443,6 +1471,10 @@ Loading patches file: E:\Furmutage-1.20.1-0.01\build\fg_cache\net\minecraftforge
     Checksum: e29fa5fd Exists: true
   Reading patch net.minecraft.tags.TagManager.binpatch
     Checksum: f1e5f470 Exists: true
+  Reading patch net.minecraft.util.SpawnUtil$Strategy.binpatch
+    Checksum: 6f8872c6 Exists: true
+  Reading patch net.minecraft.util.SpawnUtil.binpatch
+    Checksum: 160632bf Exists: true
   Reading patch net.minecraft.util.datafix.fixes.StructuresBecomeConfiguredFix$Conversion.binpatch
     Checksum: 1b57269 Exists: true
   Reading patch net.minecraft.util.datafix.fixes.StructuresBecomeConfiguredFix.binpatch
@@ -1503,6 +1535,14 @@ Loading patches file: E:\Furmutage-1.20.1-0.01\build\fg_cache\net\minecraftforge
     Checksum: 66f85384 Exists: true
   Reading patch net.minecraft.world.entity.TamableAnimal.binpatch
     Checksum: 81d387e7 Exists: true
+  Reading patch net.minecraft.world.entity.ai.Brain$1.binpatch
+    Checksum: 99f3604c Exists: true
+  Reading patch net.minecraft.world.entity.ai.Brain$MemoryValue.binpatch
+    Checksum: 8442dcee Exists: true
+  Reading patch net.minecraft.world.entity.ai.Brain$Provider.binpatch
+    Checksum: 4077211f Exists: true
+  Reading patch net.minecraft.world.entity.ai.Brain.binpatch
+    Checksum: c6fac287 Exists: true
   Reading patch net.minecraft.world.entity.ai.attributes.AttributeSupplier$Builder.binpatch
     Checksum: 51df5b04 Exists: true
   Reading patch net.minecraft.world.entity.ai.attributes.AttributeSupplier.binpatch
@@ -1693,6 +1733,12 @@ Loading patches file: E:\Furmutage-1.20.1-0.01\build\fg_cache\net\minecraftforge
     Checksum: 847085cf Exists: true
   Reading patch net.minecraft.world.entity.animal.allay.Allay.binpatch
     Checksum: 3321b494 Exists: true
+  Reading patch net.minecraft.world.entity.animal.camel.Camel$CamelBodyRotationControl.binpatch
+    Checksum: ba4f2ec Exists: true
+  Reading patch net.minecraft.world.entity.animal.camel.Camel$CamelMoveControl.binpatch
+    Checksum: b1bf1e75 Exists: true
+  Reading patch net.minecraft.world.entity.animal.camel.Camel.binpatch
+    Checksum: dd6b2f38 Exists: true
   Reading patch net.minecraft.world.entity.animal.horse.AbstractHorse$1.binpatch
     Checksum: eba7a333 Exists: true
   Reading patch net.minecraft.world.entity.animal.horse.AbstractHorse.binpatch
@@ -1703,6 +1749,12 @@ Loading patches file: E:\Furmutage-1.20.1-0.01\build\fg_cache\net\minecraftforge
     Checksum: f71d7714 Exists: true
   Reading patch net.minecraft.world.entity.animal.horse.SkeletonTrapGoal.binpatch
     Checksum: 3a3ef037 Exists: true
+  Reading patch net.minecraft.world.entity.animal.sniffer.Sniffer$1.binpatch
+    Checksum: a790f01e Exists: true
+  Reading patch net.minecraft.world.entity.animal.sniffer.Sniffer$State.binpatch
+    Checksum: be9568d3 Exists: true
+  Reading patch net.minecraft.world.entity.animal.sniffer.Sniffer.binpatch
+    Checksum: 175f23d9 Exists: true
   Reading patch net.minecraft.world.entity.boss.EnderDragonPart.binpatch
     Checksum: 3c26d30a Exists: true
   Reading patch net.minecraft.world.entity.boss.enderdragon.EnderDragon.binpatch
@@ -1829,6 +1881,32 @@ Loading patches file: E:\Furmutage-1.20.1-0.01\build\fg_cache\net\minecraftforge
     Checksum: ab04472f Exists: true
   Reading patch net.minecraft.world.entity.npc.Villager.binpatch
     Checksum: dd609e65 Exists: true
+  Reading patch net.minecraft.world.entity.npc.VillagerTrades$DyedArmorForEmeralds.binpatch
+    Checksum: b0ad1aa8 Exists: true
+  Reading patch net.minecraft.world.entity.npc.VillagerTrades$EmeraldForItems.binpatch
+    Checksum: dab8e032 Exists: true
+  Reading patch net.minecraft.world.entity.npc.VillagerTrades$EmeraldsForVillagerTypeItem.binpatch
+    Checksum: cb4c3448 Exists: true
+  Reading patch net.minecraft.world.entity.npc.VillagerTrades$EnchantBookForEmeralds.binpatch
+    Checksum: e3ea256c Exists: true
+  Reading patch net.minecraft.world.entity.npc.VillagerTrades$EnchantedItemForEmeralds.binpatch
+    Checksum: bfe963a5 Exists: true
+  Reading patch net.minecraft.world.entity.npc.VillagerTrades$ItemListing.binpatch
+    Checksum: 464b8f03 Exists: true
+  Reading patch net.minecraft.world.entity.npc.VillagerTrades$ItemsAndEmeraldsToItems.binpatch
+    Checksum: b4c263f7 Exists: true
+  Reading patch net.minecraft.world.entity.npc.VillagerTrades$ItemsForEmeralds.binpatch
+    Checksum: 3c517506 Exists: true
+  Reading patch net.minecraft.world.entity.npc.VillagerTrades$SuspiciousStewForEmerald.binpatch
+    Checksum: a1140836 Exists: true
+  Reading patch net.minecraft.world.entity.npc.VillagerTrades$TippedArrowForItemsAndEmeralds.binpatch
+    Checksum: ee4b67bd Exists: true
+  Reading patch net.minecraft.world.entity.npc.VillagerTrades$TreasureMapForEmeralds.binpatch
+    Checksum: f3648239 Exists: true
+  Reading patch net.minecraft.world.entity.npc.VillagerTrades.binpatch
+    Checksum: 87a99826 Exists: true
+  Reading patch net.minecraft.world.entity.npc.VillagerType.binpatch
+    Checksum: 3dec07cf Exists: true
   Reading patch net.minecraft.world.entity.player.Inventory.binpatch
     Checksum: 464033c8 Exists: true
   Reading patch net.minecraft.world.entity.player.Player$1.binpatch
@@ -2043,6 +2121,12 @@ Loading patches file: E:\Furmutage-1.20.1-0.01\build\fg_cache\net\minecraftforge
     Checksum: a1c2c76d Exists: true
   Reading patch net.minecraft.world.item.ElytraItem.binpatch
     Checksum: 88da0826 Exists: true
+  Reading patch net.minecraft.world.item.FireworkRocketItem$Shape.binpatch
+    Checksum: 4c033c46 Exists: true
+  Reading patch net.minecraft.world.item.FireworkRocketItem.binpatch
+    Checksum: bf919d2c Exists: true
+  Reading patch net.minecraft.world.item.FireworkStarItem.binpatch
+    Checksum: 55165bf9 Exists: true
   Reading patch net.minecraft.world.item.FishingRodItem.binpatch
     Checksum: 4e9635ab Exists: true
   Reading patch net.minecraft.world.item.HoeItem.binpatch
@@ -2111,6 +2195,8 @@ Loading patches file: E:\Furmutage-1.20.1-0.01\build\fg_cache\net\minecraftforge
     Checksum: ffbf8768 Exists: true
   Reading patch net.minecraft.world.item.crafting.BookCloningRecipe.binpatch
     Checksum: 7e23cab6 Exists: true
+  Reading patch net.minecraft.world.item.crafting.FireworkStarRecipe.binpatch
+    Checksum: 650a3f10 Exists: true
   Reading patch net.minecraft.world.item.crafting.Ingredient$ItemValue.binpatch
     Checksum: 646fbdf4 Exists: true
   Reading patch net.minecraft.world.item.crafting.Ingredient$TagValue.binpatch
@@ -2341,6 +2427,8 @@ Loading patches file: E:\Furmutage-1.20.1-0.01\build\fg_cache\net\minecraftforge
     Checksum: 7b63e54a Exists: true
   Reading patch net.minecraft.world.level.block.ChorusFlowerBlock.binpatch
     Checksum: 8aca2cca Exists: true
+  Reading patch net.minecraft.world.level.block.ChorusPlantBlock.binpatch
+    Checksum: b657c137 Exists: true
   Reading patch net.minecraft.world.level.block.CocoaBlock$1.binpatch
     Checksum: b466aa81 Exists: true
   Reading patch net.minecraft.world.level.block.CocoaBlock.binpatch
@@ -2395,6 +2483,10 @@ Loading patches file: E:\Furmutage-1.20.1-0.01\build\fg_cache\net\minecraftforge
     Checksum: 51c517af Exists: true
   Reading patch net.minecraft.world.level.block.NoteBlock.binpatch
     Checksum: 4b629588 Exists: true
+  Reading patch net.minecraft.world.level.block.PitcherCropBlock$PosAndState.binpatch
+    Checksum: 14e3edba Exists: true
+  Reading patch net.minecraft.world.level.block.PitcherCropBlock.binpatch
+    Checksum: 1651d816 Exists: true
   Reading patch net.minecraft.world.level.block.PowderSnowBlock.binpatch
     Checksum: f535fc3e Exists: true
   Reading patch net.minecraft.world.level.block.PoweredRailBlock$1.binpatch
@@ -2473,6 +2565,8 @@ Loading patches file: E:\Furmutage-1.20.1-0.01\build\fg_cache\net\minecraftforge
     Checksum: d8f38117 Exists: true
   Reading patch net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity$1.binpatch
     Checksum: bd132a43 Exists: true
+  Reading patch net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity$2.binpatch
+    Checksum: 0 Exists: false
   Reading patch net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity.binpatch
     Checksum: c45d3403 Exists: true
   Reading patch net.minecraft.world.level.block.entity.BaseContainerBlockEntity.binpatch
@@ -2487,14 +2581,20 @@ Loading patches file: E:\Furmutage-1.20.1-0.01\build\fg_cache\net\minecraftforge
     Checksum: be7a1deb Exists: true
   Reading patch net.minecraft.world.level.block.entity.BrewingStandBlockEntity$1.binpatch
     Checksum: 1b5c09e8 Exists: true
+  Reading patch net.minecraft.world.level.block.entity.BrewingStandBlockEntity$2.binpatch
+    Checksum: 0 Exists: false
   Reading patch net.minecraft.world.level.block.entity.BrewingStandBlockEntity.binpatch
     Checksum: 8339d487 Exists: true
   Reading patch net.minecraft.world.level.block.entity.ChestBlockEntity$1.binpatch
     Checksum: 9f659169 Exists: true
   Reading patch net.minecraft.world.level.block.entity.ChestBlockEntity.binpatch
     Checksum: cdb10e7d Exists: true
+  Reading patch net.minecraft.world.level.block.entity.ChiseledBookShelfBlockEntity.binpatch
+    Checksum: e19ac5ed Exists: true
   Reading patch net.minecraft.world.level.block.entity.ConduitBlockEntity.binpatch
     Checksum: 95d05496 Exists: true
+  Reading patch net.minecraft.world.level.block.entity.HangingSignBlockEntity.binpatch
+    Checksum: 487928cb Exists: true
   Reading patch net.minecraft.world.level.block.entity.HopperBlockEntity.binpatch
     Checksum: e1155c60 Exists: true
   Reading patch net.minecraft.world.level.block.entity.ShulkerBoxBlockEntity$1.binpatch
@@ -2601,6 +2701,8 @@ Loading patches file: E:\Furmutage-1.20.1-0.01\build\fg_cache\net\minecraftforge
     Checksum: fe0a954d Exists: true
   Reading patch net.minecraft.world.level.levelgen.DebugLevelSource.binpatch
     Checksum: 104b53e9 Exists: true
+  Reading patch net.minecraft.world.level.levelgen.PhantomSpawner.binpatch
+    Checksum: caa3fb97 Exists: true
   Reading patch net.minecraft.world.level.levelgen.feature.Feature.binpatch
     Checksum: f77ac98a Exists: true
   Reading patch net.minecraft.world.level.levelgen.feature.MonsterRoomFeature.binpatch
@@ -2609,6 +2711,8 @@ Loading patches file: E:\Furmutage-1.20.1-0.01\build\fg_cache\net\minecraftforge
     Checksum: ed8e5c47 Exists: true
   Reading patch net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration.binpatch
     Checksum: bc563b01 Exists: true
+  Reading patch net.minecraft.world.level.levelgen.feature.treedecorators.AlterGroundDecorator.binpatch
+    Checksum: 19c1b076 Exists: true
   Reading patch net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacer.binpatch
     Checksum: ed91de4a Exists: true
   Reading patch net.minecraft.world.level.levelgen.structure.Structure$GenerationContext.binpatch
@@ -2796,6 +2900,7 @@ Processing: C:\Users\User\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joi
   Patching com/mojang/blaze3d/vertex/BufferBuilder 1/1
   Patching com/mojang/blaze3d/vertex/PoseStack$Pose 1/1
   Patching com/mojang/blaze3d/vertex/PoseStack 1/1
+  Patching com/mojang/blaze3d/vertex/SheetedDecalTextureGenerator 1/1
   Patching com/mojang/blaze3d/vertex/VertexConsumer 1/1
   Patching com/mojang/blaze3d/vertex/VertexFormat$1 1/1
   Patching com/mojang/blaze3d/vertex/VertexFormat$IndexType 1/1
@@ -2896,11 +3001,14 @@ Processing: C:\Users\User\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joi
   Patching net/minecraft/client/gui/components/toasts/ToastComponent 1/1
   Patching net/minecraft/client/gui/screens/ChatScreen$1 1/1
   Patching net/minecraft/client/gui/screens/ChatScreen 1/1
+  Patching net/minecraft/client/gui/screens/ConnectScreen$1 1/1
+  Patching net/minecraft/client/gui/screens/ConnectScreen 1/1
   Patching net/minecraft/client/gui/screens/LoadingOverlay$LogoTexture 1/1
   Patching net/minecraft/client/gui/screens/LoadingOverlay 1/1
   Patching net/minecraft/client/gui/screens/MenuScreens$ScreenConstructor 1/1
   Patching net/minecraft/client/gui/screens/MenuScreens 1/1
   Patching net/minecraft/client/gui/screens/OptionsScreen 1/1
+  Patching net/minecraft/client/gui/screens/PauseScreen 1/1
   Patching net/minecraft/client/gui/screens/Screen$DeferredTooltipRendering 1/1
   Patching net/minecraft/client/gui/screens/Screen$NarratableSearchResult 1/1
   Patching net/minecraft/client/gui/screens/Screen 1/1
@@ -3002,6 +3110,13 @@ Processing: C:\Users\User\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joi
   Patching net/minecraft/client/particle/EnchantmentTableParticle$NautilusProvider 1/1
   Patching net/minecraft/client/particle/EnchantmentTableParticle$Provider 1/1
   Patching net/minecraft/client/particle/EnchantmentTableParticle 1/1
+  Patching net/minecraft/client/particle/FireworkParticles$1 1/1
+  Patching net/minecraft/client/particle/FireworkParticles$FlashProvider 1/1
+  Patching net/minecraft/client/particle/FireworkParticles$OverlayParticle 1/1
+  Patching net/minecraft/client/particle/FireworkParticles$SparkParticle 1/1
+  Patching net/minecraft/client/particle/FireworkParticles$SparkProvider 1/1
+  Patching net/minecraft/client/particle/FireworkParticles$Starter 1/1
+  Patching net/minecraft/client/particle/FireworkParticles 1/1
   Patching net/minecraft/client/particle/Particle 1/1
   Patching net/minecraft/client/particle/ParticleEngine$1ParticleDefinition 1/1
   Patching net/minecraft/client/particle/ParticleEngine$MutableSpriteSet 1/1
@@ -3055,6 +3170,7 @@ Processing: C:\Users\User\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joi
   Patching net/minecraft/client/renderer/ShaderInstance 1/1
   Patching net/minecraft/client/renderer/Sheets$1 1/1
   Patching net/minecraft/client/renderer/Sheets 1/1
+  Patching net/minecraft/client/renderer/SpriteCoordinateExpander 1/1
   Patching net/minecraft/client/renderer/block/BlockModelShaper 1/1
   Patching net/minecraft/client/renderer/block/BlockRenderDispatcher$1 1/1
   Patching net/minecraft/client/renderer/block/BlockRenderDispatcher 1/1
@@ -3280,6 +3396,7 @@ Processing: C:\Users\User\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joi
   Patching net/minecraft/data/tags/BannerPatternTagsProvider 1/1
   Patching net/minecraft/data/tags/BiomeTagsProvider 1/1
   Patching net/minecraft/data/tags/CatVariantTagsProvider 1/1
+  Patching net/minecraft/data/tags/DamageTypeTagsProvider 1/1
   Patching net/minecraft/data/tags/EntityTypeTagsProvider 1/1
   Patching net/minecraft/data/tags/FlatLevelGeneratorPresetTagsProvider 1/1
   Patching net/minecraft/data/tags/FluidTagsProvider 1/1
@@ -3477,12 +3594,15 @@ Processing: C:\Users\User\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joi
   Patching net/minecraft/tags/TagBuilder 1/1
   Patching net/minecraft/tags/TagEntry$Lookup 1/1
   Patching net/minecraft/tags/TagEntry 1/1
+  Patching net/minecraft/tags/TagFile 1/1
   Patching net/minecraft/tags/TagLoader$1 1/1
   Patching net/minecraft/tags/TagLoader$EntryWithSource 1/1
   Patching net/minecraft/tags/TagLoader$SortingEntry 1/1
   Patching net/minecraft/tags/TagLoader 1/1
   Patching net/minecraft/tags/TagManager$LoadResult 1/1
   Patching net/minecraft/tags/TagManager 1/1
+  Patching net/minecraft/util/SpawnUtil$Strategy 1/1
+  Patching net/minecraft/util/SpawnUtil 1/1
   Patching net/minecraft/util/datafix/fixes/StructuresBecomeConfiguredFix$Conversion 1/1
   Patching net/minecraft/util/datafix/fixes/StructuresBecomeConfiguredFix 1/1
   Patching net/minecraft/util/datafix/schemas/V2832 1/1
@@ -3513,6 +3633,10 @@ Processing: C:\Users\User\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joi
   Patching net/minecraft/world/entity/SpawnPlacements$Type 1/1
   Patching net/minecraft/world/entity/SpawnPlacements 1/1
   Patching net/minecraft/world/entity/TamableAnimal 1/1
+  Patching net/minecraft/world/entity/ai/Brain$1 1/1
+  Patching net/minecraft/world/entity/ai/Brain$MemoryValue 1/1
+  Patching net/minecraft/world/entity/ai/Brain$Provider 1/1
+  Patching net/minecraft/world/entity/ai/Brain 1/1
   Patching net/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder 1/1
   Patching net/minecraft/world/entity/ai/attributes/AttributeSupplier 1/1
   Patching net/minecraft/world/entity/ai/attributes/DefaultAttributes 1/1
@@ -3608,11 +3732,17 @@ Processing: C:\Users\User\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joi
   Patching net/minecraft/world/entity/animal/allay/Allay$JukeboxListener 1/1
   Patching net/minecraft/world/entity/animal/allay/Allay$VibrationUser 1/1
   Patching net/minecraft/world/entity/animal/allay/Allay 1/1
+  Patching net/minecraft/world/entity/animal/camel/Camel$CamelBodyRotationControl 1/1
+  Patching net/minecraft/world/entity/animal/camel/Camel$CamelMoveControl 1/1
+  Patching net/minecraft/world/entity/animal/camel/Camel 1/1
   Patching net/minecraft/world/entity/animal/horse/AbstractHorse$1 1/1
   Patching net/minecraft/world/entity/animal/horse/AbstractHorse 1/1
   Patching net/minecraft/world/entity/animal/horse/Horse$HorseGroupData 1/1
   Patching net/minecraft/world/entity/animal/horse/Horse 1/1
   Patching net/minecraft/world/entity/animal/horse/SkeletonTrapGoal 1/1
+  Patching net/minecraft/world/entity/animal/sniffer/Sniffer$1 1/1
+  Patching net/minecraft/world/entity/animal/sniffer/Sniffer$State 1/1
+  Patching net/minecraft/world/entity/animal/sniffer/Sniffer 1/1
   Patching net/minecraft/world/entity/boss/EnderDragonPart 1/1
   Patching net/minecraft/world/entity/boss/enderdragon/EnderDragon 1/1
   Patching net/minecraft/world/entity/boss/wither/WitherBoss$WitherDoNothingGoal 1/1
@@ -3676,6 +3806,19 @@ Processing: C:\Users\User\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joi
   Patching net/minecraft/world/entity/npc/AbstractVillager 1/1
   Patching net/minecraft/world/entity/npc/CatSpawner 1/1
   Patching net/minecraft/world/entity/npc/Villager 1/1
+  Patching net/minecraft/world/entity/npc/VillagerTrades$DyedArmorForEmeralds 1/1
+  Patching net/minecraft/world/entity/npc/VillagerTrades$EmeraldForItems 1/1
+  Patching net/minecraft/world/entity/npc/VillagerTrades$EmeraldsForVillagerTypeItem 1/1
+  Patching net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds 1/1
+  Patching net/minecraft/world/entity/npc/VillagerTrades$EnchantedItemForEmeralds 1/1
+  Patching net/minecraft/world/entity/npc/VillagerTrades$ItemListing 1/1
+  Patching net/minecraft/world/entity/npc/VillagerTrades$ItemsAndEmeraldsToItems 1/1
+  Patching net/minecraft/world/entity/npc/VillagerTrades$ItemsForEmeralds 1/1
+  Patching net/minecraft/world/entity/npc/VillagerTrades$SuspiciousStewForEmerald 1/1
+  Patching net/minecraft/world/entity/npc/VillagerTrades$TippedArrowForItemsAndEmeralds 1/1
+  Patching net/minecraft/world/entity/npc/VillagerTrades$TreasureMapForEmeralds 1/1
+  Patching net/minecraft/world/entity/npc/VillagerTrades 1/1
+  Patching net/minecraft/world/entity/npc/VillagerType 1/1
   Patching net/minecraft/world/entity/player/Inventory 1/1
   Patching net/minecraft/world/entity/player/Player$1 1/1
   Patching net/minecraft/world/entity/player/Player$BedSleepingProblem 1/1
@@ -3783,6 +3926,9 @@ Processing: C:\Users\User\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joi
   Patching net/minecraft/world/item/DyeColor 1/1
   Patching net/minecraft/world/item/DyeableHorseArmorItem 1/1
   Patching net/minecraft/world/item/ElytraItem 1/1
+  Patching net/minecraft/world/item/FireworkRocketItem$Shape 1/1
+  Patching net/minecraft/world/item/FireworkRocketItem 1/1
+  Patching net/minecraft/world/item/FireworkStarItem 1/1
   Patching net/minecraft/world/item/FishingRodItem 1/1
   Patching net/minecraft/world/item/HoeItem 1/1
   Patching net/minecraft/world/item/HorseArmorItem 1/1
@@ -3816,6 +3962,7 @@ Processing: C:\Users\User\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joi
   Patching net/minecraft/world/item/alchemy/PotionBrewing 1/1
   Patching net/minecraft/world/item/crafting/BannerDuplicateRecipe 1/1
   Patching net/minecraft/world/item/crafting/BookCloningRecipe 1/1
+  Patching net/minecraft/world/item/crafting/FireworkStarRecipe 1/1
   Patching net/minecraft/world/item/crafting/Ingredient$ItemValue 1/1
   Patching net/minecraft/world/item/crafting/Ingredient$TagValue 1/1
   Patching net/minecraft/world/item/crafting/Ingredient$Value 1/1
@@ -3929,6 +4076,7 @@ Processing: C:\Users\User\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joi
   Patching net/minecraft/world/level/block/ChestBlock$4 1/1
   Patching net/minecraft/world/level/block/ChestBlock 1/1
   Patching net/minecraft/world/level/block/ChorusFlowerBlock 1/1
+  Patching net/minecraft/world/level/block/ChorusPlantBlock 1/1
   Patching net/minecraft/world/level/block/CocoaBlock$1 1/1
   Patching net/minecraft/world/level/block/CocoaBlock 1/1
   Patching net/minecraft/world/level/block/ComparatorBlock 1/1
@@ -3956,6 +4104,8 @@ Processing: C:\Users\User\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joi
   Patching net/minecraft/world/level/block/MushroomBlock 1/1
   Patching net/minecraft/world/level/block/NetherWartBlock 1/1
   Patching net/minecraft/world/level/block/NoteBlock 1/1
+  Patching net/minecraft/world/level/block/PitcherCropBlock$PosAndState 1/1
+  Patching net/minecraft/world/level/block/PitcherCropBlock 1/1
   Patching net/minecraft/world/level/block/PowderSnowBlock 1/1
   Patching net/minecraft/world/level/block/PoweredRailBlock$1 1/1
   Patching net/minecraft/world/level/block/PoweredRailBlock 1/1
@@ -4005,7 +4155,9 @@ Processing: C:\Users\User\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joi
   Patching net/minecraft/world/level/block/entity/BrewingStandBlockEntity 1/1
   Patching net/minecraft/world/level/block/entity/ChestBlockEntity$1 1/1
   Patching net/minecraft/world/level/block/entity/ChestBlockEntity 1/1
+  Patching net/minecraft/world/level/block/entity/ChiseledBookShelfBlockEntity 1/1
   Patching net/minecraft/world/level/block/entity/ConduitBlockEntity 1/1
+  Patching net/minecraft/world/level/block/entity/HangingSignBlockEntity 1/1
   Patching net/minecraft/world/level/block/entity/HopperBlockEntity 1/1
   Patching net/minecraft/world/level/block/entity/ShulkerBoxBlockEntity$1 1/1
   Patching net/minecraft/world/level/block/entity/ShulkerBoxBlockEntity$AnimationStatus 1/1
@@ -4059,10 +4211,12 @@ Processing: C:\Users\User\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joi
   Patching net/minecraft/world/level/levelgen/Beardifier$Rigid 1/1
   Patching net/minecraft/world/level/levelgen/Beardifier 1/1
   Patching net/minecraft/world/level/levelgen/DebugLevelSource 1/1
+  Patching net/minecraft/world/level/levelgen/PhantomSpawner 1/1
   Patching net/minecraft/world/level/levelgen/feature/Feature 1/1
   Patching net/minecraft/world/level/levelgen/feature/MonsterRoomFeature 1/1
   Patching net/minecraft/world/level/levelgen/feature/configurations/TreeConfiguration$TreeConfigurationBuilder 1/1
   Patching net/minecraft/world/level/levelgen/feature/configurations/TreeConfiguration 1/1
+  Patching net/minecraft/world/level/levelgen/feature/treedecorators/AlterGroundDecorator 1/1
   Patching net/minecraft/world/level/levelgen/feature/trunkplacers/TrunkPlacer 1/1
   Patching net/minecraft/world/level/levelgen/structure/Structure$GenerationContext 1/1
   Patching net/minecraft/world/level/levelgen/structure/Structure$GenerationStub 1/1
@@ -4144,7 +4298,9 @@ Processing: C:\Users\User\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\joi
   Patching net/minecraft/world/level/storage/loot/providers/nbt/ContextNbtProvider$Serializer 1/1
   Patching net/minecraft/world/level/storage/loot/providers/nbt/ContextNbtProvider 1/1
   Patching net/minecraft/world/item/crafting/RecipeType$2 1/1
+  Patching net/minecraft/world/level/block/entity/BrewingStandBlockEntity$2 1/1
   Patching net/minecraft/world/level/biome/BiomeSpecialEffects$GrassColorModifier$ColorModifier 1/1
   Patching net/minecraft/Util$3 1/1
   Patching net/minecraft/Util$4 1/1
+  Patching net/minecraft/world/level/block/entity/AbstractFurnaceBlockEntity$2 1/1
   Patching net/minecraft/world/item/Items$1 1/1
